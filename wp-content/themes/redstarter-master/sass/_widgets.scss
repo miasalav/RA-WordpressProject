@@ -1,0 +1,82 @@
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+
+.widget {
+	margin: 0 0 $base__space-unit;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+}
+
+/* Search widget. */
+.widget_search .search-submit {
+	display: none;
+}
+
+/* SIDEBAR */
+
+.widget-title
+{
+	font-family: $raleway;
+	font-weight: 700;
+	font-size: 1em;
+	letter-spacing: 1px;
+	color: $widget-title_color;
+	text-transform: uppercase;
+}
+
+.widget
+{
+	margin: 2em;
+	ul
+	{
+		li
+		{
+			list-style-type: none;
+			a{
+				color: $color__text-screen;
+			}
+		}
+	}
+}
+
+#secondary
+{
+	aside
+	{
+		p{
+			font-size: 0.85em;
+		}
+		
+		a
+		{
+			font-size: 0.85em;
+		}
+	}
+}
+
+.site-footer
+{
+	h2
+	{
+		font-family: $raleway;
+		font-weight: 700;
+		font-size: 1em;
+		letter-spacing: 1px;
+		color: darkorange;
+		text-transform: uppercase;
+	}
+
+	strong
+	{
+		color: white;
+	}
+	
+	p
+	{
+		color: #cacaca;
+	}
+}

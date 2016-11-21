@@ -1,0 +1,178 @@
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+
+/* Posts and pages */
+
+
+
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 $base__space-unit;
+}
+
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: $base__space-unit 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 $base__space-unit;
+}
+
+/* CONTENT ARCHIVE SECTION */
+.content-area
+{
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-left: 2em;
+	padding-right: 3em;
+	border-right:1px solid #ccc;
+
+}
+.post-section
+{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.post-image {
+	position: relative;
+	width: 100%;
+
+	img 
+	{ 
+	width: 100%; /* for IE 6 */
+	}
+
+	h2 { 
+	position: absolute; 
+	top: 20px; 
+	left: 0; 
+	width: 100%;
+
+	span{
+		font: bold 24px/45px Helvetica, Sans-Serif; 
+		letter-spacing: -1px;  
+		background: $color__text-screen;
+		padding: 10px; 
+			a{
+			text-decoration: none;
+			color: white;
+			} 
+		}
+	
+	}
+
+	.entry-meta
+	{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+			span{
+			color: white; 
+			font: 12px Helvetica, Sans-Serif;   
+			background: $color__text-screen;
+			padding: 5px; 
+			}
+	}
+}
+
+.entry-content
+{
+	.read-more-link
+	{
+		padding: 10px;
+		border:1px solid #000;
+		text-transform: uppercase;
+		font-size: 11px;
+		font-weight: 600;
+		color: black;
+		letter-spacing: 1px;
+	}
+
+	p
+	{
+		font-size: 0.85em;
+	}
+}
+
+.post-section
+{
+	margin-bottom: 2em;
+}
+
+
+
+
+/* Asides */
+
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+	display: none;
+}
+
+/* Comments */
+
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+	display: block;
+}
+
+#comments
+{
+	.comments-title
+	{
+	font-family: $raleway;
+	font-weight: 700;
+	font-size: 1.25em;
+	color: $widget-title_color;
+	text-transform: uppercase;
+	}
+
+	.comment-author-avatar
+	{
+		img
+		{
+		border-radius: 50%;
+		}
+	}
+
+	#respond
+	{
+		.comment-reply-title
+		{
+		font-family: $raleway;
+		font-weight: 700;
+		font-size: 1.25em;
+		text-transform: uppercase;
+		}
+	}
+}
+
+/* FRONT PAGE */
+
+.section-title
+{
+	text-align: center;
+	font-size: 1.75em;
+	letter-spacing: 1px;
+	font-weight: 700;
+	margin-bottom: 1em;
+}

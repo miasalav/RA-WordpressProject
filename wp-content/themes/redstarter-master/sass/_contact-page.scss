@@ -1,0 +1,49 @@
+/** CONTACT **/
+
+.contact-section
+{
+    h2{
+        text-transform: uppercase;
+        font-size: 2em;
+        font: $raleway;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: $widget-title_color;
+    }
+
+    h3
+    {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font: $raleway;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: $widget-title_color;
+        margin-bottom: 1em;
+    }
+
+    form
+    {
+        label
+        {
+            text-transform: uppercase;
+            font-size: 0.75em;
+            color: $widget-title_color;
+
+            input{
+                width: 300px;
+            }
+
+            textarea
+            {
+                width: 600px;
+            }
+
+        }
+    }
+}
+
+.contact-blurb
+{
+    margin-top: 2em;
+}

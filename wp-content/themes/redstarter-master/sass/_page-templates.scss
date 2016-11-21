@@ -1,0 +1,108 @@
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
+.hidden
+{
+    display: none;
+}
+
+.display
+{
+    display: block;
+}
+.flex
+{
+	display: flex;
+}
+/* Front page */
+
+/* Header PHP */
+
+
+.site-branding
+{
+    margin: 1em;
+}
+
+
+#site-navigation
+{
+    margin-top: 1em;
+    
+    .menu-menu-1-container
+    {
+        #primary-menu
+        {   
+            padding-top: 10px;
+            float: right;
+            li
+            {
+                margin-right: 15px;
+                text-transform: uppercase;
+                font-size: 0.75em;
+
+                a{
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+
+.site-header
+{
+    border-bottom:1px solid #ccc;
+    .header-logo
+    {
+        width: 100%;
+    }
+}
+
+
+.home-header-logo
+{
+    display: block;
+    margin: 0 auto;
+
+}
+
+.full-header
+{
+    border-bottom: 0px;
+    height: 100vh;
+    background:
+      linear-gradient( to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.35) 100% );
+    background-size: cover;
+
+    .header-logo
+    {
+        filter: saturate(0) brightness(100);
+    }
+
+    #site-navigation{
+        a{
+            color:white;
+        }
+    }
+}
+/* Archive.PHP*/
+
+/* Footer */
+
+.site-footer
+{
+    background-image: url("../../images/dark-wood.png");
+    padding: 2em;
+}
+
+/* Product Archive Template */
+
+.product-container
+{
+    h2
+    {
+        font-size: 0.85em;
+    }
+}
+
+

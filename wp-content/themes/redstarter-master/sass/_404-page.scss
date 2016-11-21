@@ -1,0 +1,35 @@
+.search-form
+{
+    fieldset
+    {
+        width: 250px;
+        border: 0;
+    }
+}
+
+.error-404
+{
+    .page-title
+    {
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: black;
+        font-weight: 700; 
+    }
+    h2
+    {
+        font-size: 1.25em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: indigo;
+        font-weight: 700;
+
+    }
+
+    select
+    {
+        width: 150px;
+    }
+}
+

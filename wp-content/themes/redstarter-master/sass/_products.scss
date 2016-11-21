@@ -1,0 +1,41 @@
+/**PRODUCT FRONT PAGE SECTION **/
+
+.product-section-front
+{
+	margin-bottom: 3em;
+}
+
+.product-menu-item
+	{
+		border: 1px solid #ccc;
+		border-top: 5px solid #ccc;
+		margin-bottom: 1.5em;
+		padding: 10px;
+		margin-top: 2em;
+
+		img{
+			width: 50%;
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 0.75em;
+			margin-top: 0.75em;
+		}
+		p{
+			
+			font-size: 0.9em;
+			line-height: 1.5em;
+			padding: 5px;
+		}
+		a{
+			display: block;
+			margin: 0 auto;
+			padding: 10px;
+			background-color:$color__text-screen;
+			text-transform: uppercase;
+			font-size: 11px;
+			color: white;
+			letter-spacing: 1px;
+			width: 70%;
+			text-align: center;
+		}
+	}
